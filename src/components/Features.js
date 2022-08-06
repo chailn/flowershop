@@ -10,16 +10,17 @@ const Features = () => {
       id="about"
       className=" section h-screen bg-flower_bg  bg-cover bg-center flex items-center justify-center"
     >
-      <div className="container mx-auto  ">
+      {/* className="container mx-auto  " */}
+      <div>
         <div className="flex items-center flex-col lg:flex-row lg:gap-x-[100px]">
           {/* image */}
           <div className="flex-1 order-1 lg:-order-1">
             <img className=" rounded-lg w-full" src={image.type} alt="" />
           </div>
           {/* text */}
-          <div className="flex-1 flex flex-col justify-end ">
-            <h2 className="title">{title}</h2>
-            <p className="subtitle">{subtitle}</p>
+          <div className="flex-1 flex flex-col justify-start ">
+            <h2 className="title text-center lg:text-start">{title}</h2>
+            <p className="subtitle text-center lg:text-start">{subtitle}</p>
             {/* items */}
             <div>
               {items.map((item, index) => {

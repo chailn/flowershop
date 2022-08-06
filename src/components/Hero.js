@@ -13,7 +13,7 @@ const Hero = () => {
       id="home"
       className="h-full flex items-center justify-center pt-[100px] w-full  bg-flower lg:bg-center bg-cover bg-no-repeat text-black "
     >
-      <div className="container  mx-auto text-center ">
+      <div className=" text-center ">
         {/* title */}
         <h1 className="text-4xl lg:text-[64px] lg:leading-tight lg:max-w-[888px] mx-auto font-semibold mb-[30px]">
           {title}
